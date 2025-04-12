@@ -211,20 +211,28 @@
     <!-- 导航 -->
     <div class="topset">
         <img style="height: 7rem;margin-left: 2rem;" src="/CentralAxisLine/image/right-logo.png" alt="logo">
-        <img id="toggleSidebar" style="height: 1rem;margin: 2rem;cursor: pointer;" src="/CentralAxisLine/image/tab.png" alt="logo">
+        <img id="toggleSidebar" style="height: 1rem;margin: 2rem;cursor: pointer;" src="/CentralAxisLine/image/tab.png"
+            alt="logo">
     </div>
 
     <!-- 侧边导航栏 -->
     <div class="sidebar" id="sidebar">
-        <div class="close-btn" id="closeSidebar"><img style="width: 3rem;" src="/CentralAxisLine/image/btn-close.png"></div>
+        <div class="close-btn" id="closeSidebar"><img style="width: 3rem;" src="/CentralAxisLine/image/btn-close.png">
+        </div>
         <div class="sidebar-content">
             <div class="sidebar-menu">
                 <img style="width: 7rem;" src="/CentralAxisLine/image/tab-login.png">
                 <img style="width: 8rem;" src="/CentralAxisLine/image/line.png">
-                <img src="/CentralAxisLine/image/tab-AI.png">
-                <img src="/CentralAxisLine/image/tab-guide.png">
-                <img src="/CentralAxisLine/image/tab-online.png">
-                <img src="/CentralAxisLine/image/tab-contact.png">
+                <a class="sidebar-menu" href="/CentralAxisLine/menu/motifsAI.html" target="_blank"><img
+                        src="/CentralAxisLine/image/tab-AI.png"></a>
+                <a class="sidebar-menu" href="/CentralAxisLine/menu/upload.html" target="_blank"><img
+                        src="/CentralAxisLine/image/tab-guide.png"></a>
+                <a class="sidebar-menu" href="/CentralAxisLine/menu/upload.html" target="_blank"><img
+                        src="/CentralAxisLine/image/tab-online.png"></a>
+                <a class="sidebar-menu" href="/CentralAxisLine/menu/contact.html" target="_blank"><img
+                        src="/CentralAxisLine/image/tab-contact.png"></a>
+                <a class="sidebar-menu" href="/CentralAxisLine/menu/photography.html" target="_blank"><img
+                        src="/CentralAxisLine/image/tab-photo.png"></a>
             </div>
         </div>
     </div>
@@ -242,6 +250,7 @@
         <div id="categories">
             <button onclick="showGallery('全部')" class="active">全部</button>
             <button onclick="showGallery('生')">生</button>
+            <button onclick="showGallery('旦')">旦</button>
             <button onclick="showGallery('净')">净</button>
             <button onclick="showGallery('末')">末</button>
             <button onclick="showGallery('丑')">丑</button>
@@ -270,6 +279,19 @@
                 { image: '/CentralAxisLine/category/Lianpu/img2/9.png', title: '京剧脸谱 (生)', number: '09', details: '详情', hoverImage: '/CentralAxisLine/category/Lianpu/img2/9-hover.png', detailLink: '/CentralAxisLine/category/Lianpu/detail/page9.html' },
                 { image: '/CentralAxisLine/category/Lianpu/img2/10.png', title: '京剧脸谱 (生)', number: '10', details: '详情', hoverImage: '/CentralAxisLine/category/Lianpu/img2/10-hover.png', detailLink: '/CentralAxisLine/category/Lianpu/detail/page10.html' },
                 { image: '/CentralAxisLine/category/Lianpu/img2/11.png', title: '京剧脸谱 (生)', number: '11', details: '详情', hoverImage: '/CentralAxisLine/category/Lianpu/img2/11-hover.png', detailLink: '/CentralAxisLine/category/Lianpu/detail/page11.html' },
+                { image: '/CentralAxisLine/category/Lianpu/img2/12.png', title: '京剧脸谱 (净)', number: '12', details: '详情', hoverImage: '/CentralAxisLine/category/Lianpu/img2/11-hover.png', detailLink: '/CentralAxisLine/category/Lianpu/detail/page11.html' },
+                { image: '/CentralAxisLine/category/Lianpu/img2/13.png', title: '京剧脸谱 (净)', number: '13', details: '详情', hoverImage: '/CentralAxisLine/category/Lianpu/img2/11-hover.png', detailLink: '/CentralAxisLine/category/Lianpu/detail/page11.html' },
+                { image: '/CentralAxisLine/category/Lianpu/img2/14.png', title: '京剧脸谱 (丑)', number: '14', details: '详情', hoverImage: '/CentralAxisLine/category/Lianpu/img2/11-hover.png', detailLink: '/CentralAxisLine/category/Lianpu/detail/page11.html' },
+                { image: '/CentralAxisLine/category/Lianpu/img2/15.png', title: '京剧脸谱 (旦)', number: '15', details: '详情', hoverImage: '/CentralAxisLine/category/Lianpu/img2/11-hover.png', detailLink: '/CentralAxisLine/category/Lianpu/detail/page11.html' },
+                { image: '/CentralAxisLine/category/Lianpu/img2/16.png', title: '京剧脸谱 (生)', number: '16', details: '详情', hoverImage: '/CentralAxisLine/category/Lianpu/img2/11-hover.png', detailLink: '/CentralAxisLine/category/Lianpu/detail/page11.html' },
+                { image: '/CentralAxisLine/category/Lianpu/img2/17.png', title: '京剧脸谱 (净)', number: '17', details: '详情', hoverImage: '/CentralAxisLine/category/Lianpu/img2/11-hover.png', detailLink: '/CentralAxisLine/category/Lianpu/detail/page11.html' },
+                { image: '/CentralAxisLine/category/Lianpu/img2/18.png', title: '京剧脸谱 (净)', number: '18', details: '详情', hoverImage: '/CentralAxisLine/category/Lianpu/img2/11-hover.png', detailLink: '/CentralAxisLine/category/Lianpu/detail/page11.html' },
+                { image: '/CentralAxisLine/category/Lianpu/img2/19.png', title: '京剧脸谱 (净)', number: '19', details: '详情', hoverImage: '/CentralAxisLine/category/Lianpu/img2/11-hover.png', detailLink: '/CentralAxisLine/category/Lianpu/detail/page11.html' },
+                { image: '/CentralAxisLine/category/Lianpu/img2/20.png', title: '京剧脸谱 (净)', number: '20', details: '详情', hoverImage: '/CentralAxisLine/category/Lianpu/img2/11-hover.png', detailLink: '/CentralAxisLine/category/Lianpu/detail/page11.html' },
+                { image: '/CentralAxisLine/category/Lianpu/img2/21.png', title: '京剧脸谱 (净)', number: '21', details: '详情', hoverImage: '/CentralAxisLine/category/Lianpu/img2/11-hover.png', detailLink: '/CentralAxisLine/category/Lianpu/detail/page11.html' },
+                { image: '/CentralAxisLine/category/Lianpu/img2/22.png', title: '京剧脸谱 (净)', number: '22', details: '详情', hoverImage: '/CentralAxisLine/category/Lianpu/img2/11-hover.png', detailLink: '/CentralAxisLine/category/Lianpu/detail/page11.html' },
+                { image: '/CentralAxisLine/category/Lianpu/img2/23.png', title: '京剧脸谱 (净)', number: '23', details: '详情', hoverImage: '/CentralAxisLine/category/Lianpu/img2/11-hover.png', detailLink: '/CentralAxisLine/category/Lianpu/detail/page11.html' },
+                { image: '/CentralAxisLine/category/Lianpu/img2/24.png', title: '京剧脸谱 (净)', number: '24', details: '详情', hoverImage: '/CentralAxisLine/category/Lianpu/img2/11-hover.png', detailLink: '/CentralAxisLine/category/Lianpu/detail/page11.html' },
             ],
             '生': [
                 { image: '/CentralAxisLine/category/Lianpu/img2/7.png', title: '京剧脸谱 (生)', number: '07', details: '详情', hoverImage: '/CentralAxisLine/category/Lianpu/img2/7-hover.png', detailLink: '/CentralAxisLine/category/Lianpu/detail/page7.html' },
@@ -277,18 +299,33 @@
                 { image: '/CentralAxisLine/category/Lianpu/img2/9.png', title: '京剧脸谱 (生)', number: '09', details: '详情', hoverImage: '/CentralAxisLine/category/Lianpu/img2/9-hover.png', detailLink: '/CentralAxisLine/category/Lianpu/detail/page9.html' },
                 { image: '/CentralAxisLine/category/Lianpu/img2/10.png', title: '京剧脸谱 (生)', number: '10', details: '详情', hoverImage: '/CentralAxisLine/category/Lianpu/img2/10-hover.png', detailLink: '/CentralAxisLine/category/Lianpu/detail/page10.html' },
                 { image: '/CentralAxisLine/category/Lianpu/img2/11.png', title: '京剧脸谱 (生)', number: '11', details: '详情', hoverImage: '/CentralAxisLine/category/Lianpu/img2/11-hover.png', detailLink: '/CentralAxisLine/category/Lianpu/detail/page11.html' },
+                { image: '/CentralAxisLine/category/Lianpu/img2/16.png', title: '京剧脸谱 (生)', number: '16', details: '详情', hoverImage: '/CentralAxisLine/category/Lianpu/img2/11-hover.png', detailLink: '/CentralAxisLine/category/Lianpu/detail/page11.html' },
+            ],
+            '旦': [
+                { image: '/CentralAxisLine/category/Lianpu/img2/15.png', title: '京剧脸谱 (旦)', number: '15', details: '详情', hoverImage: '/CentralAxisLine/category/Lianpu/img2/11-hover.png', detailLink: '/CentralAxisLine/category/Lianpu/detail/page11.html' },
             ],
             '净': [
                 { image: '/CentralAxisLine/category/Lianpu/img2/2.png', title: '京剧脸谱（净）', number: '02', details: '详情', hoverImage: '/CentralAxisLine/category/Lianpu/img2/2-hover.png', detailLink: '/CentralAxisLine/category/Lianpu/detail/page2.html' },
                 { image: '/CentralAxisLine/category/Lianpu/img2/3.png', title: '京剧脸谱（净）', number: '03', details: '详情', hoverImage: '/CentralAxisLine/category/Lianpu/img2/3-hover.png', detailLink: '/CentralAxisLine/category/Lianpu/detail/page3.html' },
                 { image: '/CentralAxisLine/category/Lianpu/img2/4.png', title: '京剧脸谱（净）', number: '04', details: '详情', hoverImage: '/CentralAxisLine/category/Lianpu/img2/4-hover.png', detailLink: '/CentralAxisLine/category/Lianpu/detail/page4.html' },
                 { image: '/CentralAxisLine/category/Lianpu/img2/5.png', title: '京剧脸谱（净）', number: '05', details: '详情', hoverImage: '/CentralAxisLine/category/Lianpu/img2/5-hover.png', detailLink: '/CentralAxisLine/category/Lianpu/detail/page5.html' },
+                { image: '/CentralAxisLine/category/Lianpu/img2/12.png', title: '京剧脸谱 (净)', number: '12', details: '详情', hoverImage: '/CentralAxisLine/category/Lianpu/img2/11-hover.png', detailLink: '/CentralAxisLine/category/Lianpu/detail/page11.html' },
+                { image: '/CentralAxisLine/category/Lianpu/img2/13.png', title: '京剧脸谱 (净)', number: '13', details: '详情', hoverImage: '/CentralAxisLine/category/Lianpu/img2/11-hover.png', detailLink: '/CentralAxisLine/category/Lianpu/detail/page11.html' },
+                { image: '/CentralAxisLine/category/Lianpu/img2/17.png', title: '京剧脸谱 (净)', number: '17', details: '详情', hoverImage: '/CentralAxisLine/category/Lianpu/img2/11-hover.png', detailLink: '/CentralAxisLine/category/Lianpu/detail/page11.html' },
+                { image: '/CentralAxisLine/category/Lianpu/img2/18.png', title: '京剧脸谱 (净)', number: '18', details: '详情', hoverImage: '/CentralAxisLine/category/Lianpu/img2/11-hover.png', detailLink: '/CentralAxisLine/category/Lianpu/detail/page11.html' },
+                { image: '/CentralAxisLine/category/Lianpu/img2/19.png', title: '京剧脸谱 (净)', number: '19', details: '详情', hoverImage: '/CentralAxisLine/category/Lianpu/img2/11-hover.png', detailLink: '/CentralAxisLine/category/Lianpu/detail/page11.html' },
+                { image: '/CentralAxisLine/category/Lianpu/img2/20.png', title: '京剧脸谱 (净)', number: '20', details: '详情', hoverImage: '/CentralAxisLine/category/Lianpu/img2/11-hover.png', detailLink: '/CentralAxisLine/category/Lianpu/detail/page11.html' },
+                { image: '/CentralAxisLine/category/Lianpu/img2/21.png', title: '京剧脸谱 (净)', number: '21', details: '详情', hoverImage: '/CentralAxisLine/category/Lianpu/img2/11-hover.png', detailLink: '/CentralAxisLine/category/Lianpu/detail/page11.html' },
+                { image: '/CentralAxisLine/category/Lianpu/img2/22.png', title: '京剧脸谱 (净)', number: '22', details: '详情', hoverImage: '/CentralAxisLine/category/Lianpu/img2/11-hover.png', detailLink: '/CentralAxisLine/category/Lianpu/detail/page11.html' },
+                { image: '/CentralAxisLine/category/Lianpu/img2/23.png', title: '京剧脸谱 (净)', number: '23', details: '详情', hoverImage: '/CentralAxisLine/category/Lianpu/img2/11-hover.png', detailLink: '/CentralAxisLine/category/Lianpu/detail/page11.html' },
+                { image: '/CentralAxisLine/category/Lianpu/img2/24.png', title: '京剧脸谱 (净)', number: '24', details: '详情', hoverImage: '/CentralAxisLine/category/Lianpu/img2/11-hover.png', detailLink: '/CentralAxisLine/category/Lianpu/detail/page11.html' },
             ],
             '末': [
                 { image: '/CentralAxisLine/category/Lianpu/img2/6.png', title: '京剧脸谱（末）', number: '06', details: '详情', hoverImage: '/CentralAxisLine/category/Lianpu/img2/6-hover.png', detailLink: '/CentralAxisLine/category/Lianpu/detail/page6.html' },
             ],
             '丑': [
                 { image: '/CentralAxisLine/category/Lianpu/img2/1.png', title: '京剧脸谱（丑）', number: '01', details: '详情', hoverImage: '/CentralAxisLine/category/Lianpu/img2/1-hover.png', detailLink: '/CentralAxisLine/category/Lianpu/detail/page1.html' },
+                { image: '/CentralAxisLine/category/Lianpu/img2/14.png', title: '京剧脸谱 (丑)', number: '14', details: '详情', hoverImage: '/CentralAxisLine/category/Lianpu/img2/11-hover.png', detailLink: '/CentralAxisLine/category/Lianpu/detail/page11.html' },
             ],
         };
 
